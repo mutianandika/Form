@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form pemesanan pizza</title>
+</head>
+<body style="align-items: center;">
+    <div>
+        <form>
+            <fieldset style=
+            "max-width: 60%;
+            border-radius: 10px;
+            border-color: rgb(248, 238, 198);
+            background: blanchedalmond;">
+               <legend style=
+               "color: black;
+               padding: 3px;
+               background: rgb(248, 206, 150);
+               border-radius: 10px;
+               text-align: center;">Make An Order</legend>
+               <p>Thank you for ordering pizza at aur place</p>
+               <li style="text-align: left;">Information</li>
+               <p>
+                   <label for="username" style="margin-right: 10px; float: left;">username</label>
+                   <input style=
+                   "border-radius: 5px;
+                   border: none;
+                   height: 25px;" type="text" username="fullname">
+               </p>
+               <p>
+                   <label for="address" style="margin-right: 15px; float: left; ">Address</label>
+                   <input style=
+                   "border-radius: 5px;
+                   border: none;
+                   height: 25px;" type="text" address="Address">
+               </p>
+               <p>
+                   <label for="number" style="margin-right: 15px; float: left;">Number</label>
+                   <input style=
+                   "border-radius: 5px;
+                   border: none;
+                   height: 25px;" type="text" number="Number">
+               </p>
+               <p>
+                <label for="email" style="margin-right: 25px; float: left;">Email</label>
+               <input style=
+               "border-radius: 5px;
+               border: none;
+               height: 25px;" type="text" email="Email">
+               </p>
+               <li style="text-align: left;">Delivery instructions</li>
+               <textarea style="border-radius: 10px;" name="" id="" cols="40" rows="5"></textarea>
+               <p style="text-align: left;">Desain your
+               <p>Crust (Choose one) :</p>
+               <input style="border-radius: 5px; border: none;" 
+                      type="text" list="edulevel" name="Crust (Choose on)">
+               <datalist id="edulevel">
+                   <option value="Class White"></option>
+                   <option value="Multigrain"></option>
+                   <option value="Cheese-stuffed Crust"></option>
+                   <option value="Gluten-free"></option>
+                </datalist>
+                </p>
+                <p>Toppings (Choose as many as you want) :
+                <select style="border-radius: 5px;" name="Topping" id="edulevel">
+                    <option value="red sauce">Red Sauce</option>
+                    <option value="white sauce">White Sauce</option>
+                    <option value="mozzarella cheese">Mozzarella Cheese</option>
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="mushrooms">Mushrooms</option>
+                    <option value="peppers">Peppers</option>
+                    <option value="anchovies">Anchovies</option>
+                </select>
+                </p>
+                <p>How Many Pizza :</p>
+                    <label for="number" style="margin-right: 10px; ">Number</label>
+                    <textarea style="border-radius: 5px;" name="number" id="Number" cols="1" rows="1"></textarea>
+                <p><input type="Bring me a pizza" value="Bring me a pizza"><a href="/pizza.html">
+                <input type="/pizza.html" value="Reset" ></a>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
